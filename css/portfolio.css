@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
+
 /* Font styling */
 .open-sans-normal {
   font-family: "Open Sans", serif;
@@ -15,7 +17,7 @@
 #header {
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position:  left, bottom right;
     
     
 }
@@ -23,12 +25,30 @@
 
 /* Shared Style */
 
+
+.sec-bg{
+    background: #FFF8F3;
+}
+
 .text-primary {
     color: #fd6e0a;
 }
 
 .dark2 {
     color: #474747;
+}
+
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.about-description {
+    font-size: 18px;
+    font-weight: 200;
+    color: #141414;
+
 }
 
 .btn-primary {
@@ -42,6 +62,7 @@
     color: white;
     font-size: 20px;
     line-height: auto;
+    padding: 18px;
 }
 
 .btn-primary-2 {
@@ -55,6 +76,8 @@
     color: white;
     font-size: 20px;
     line-height: auto;
+    margin-right: 30px;
+    padding: 18px;
 }
 
 .btn-contact {
@@ -69,6 +92,7 @@
     font-size: 20px;
     line-height: auto;
     background: transparent;
+    padding: 18px;
 }
 
 
@@ -128,12 +152,14 @@ nav li a {
     font-size: 45px;
     font-weight: 600;
     font-family: "Open Sans", serif;
+    margin-bottom: 5px;
 }
 
 .banner-title {
     font-size: 85px;
     font-weight: 800;
     font-family: "Open Sans", serif;
+    margin-bottom: 20px;
 }
 
 .banner-profile {
@@ -144,5 +170,42 @@ nav li a {
 .banner-description {
     font-size: 18px;
     font-weight: normal;
+    margin-bottom: 30px;
     
+}
+
+/* about Styling */
+
+.about {
+    margin: 130px auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 131px 156px;
+    text-align: center;
+}
+
+.about-container {
+    background: #FFFFFF;
+    
+    width: 827px;
+    height: auto;
+    border: #000000 solid;
+    
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.item-description {
+    font-weight: 600;
+    
+}
+
+.item-title {
+    font-weight: 100;
 }
